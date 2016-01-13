@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chat with Redis</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <script>
+    var socket = io.connect('localhost', { port: 8000 });
+    socket.on('message', function(data){
+    var li = new Element('li').insert(data);
+    $('messages').insert({top: li});
+  }
+</script>
+</head>
+<body>
+  <ul id="messages">
+  <!-- chat messages go here -->
+  </ul>
+
+  <form id="chatform" action="">
+    <input id="chattext" type="text" value="" />
+    <input type="submit" value="Send" />
+  </form>
+
+  <script>
+    $('#chatform').submit(function() {
+      socket.emit('message', $('chattext').val());
+      $('chattext').val(""); // cleanup the field
+      return false;
+    });
+  </script>
+<%= yield %>
+
+</body>
+</html>
