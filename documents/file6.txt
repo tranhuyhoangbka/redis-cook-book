@@ -1,0 +1,27 @@
+Anonymous drives Nissan offline in dolphin hunting protest
+Two of Nissan's main websites have been driven offline by a cyber-attack.
+The Japanese carmaker said it had suspended its global and Japanese sites early on Wednesday after they had been bombarded with traffic.
+Hacktivists linked to the Anonymous collective have claimed responsibility. They tweeted the attack was "punishment" for Japan's killing of whales and dolphins.
+Nissan has said that it has no view on such hunting activities.
+Over recent weeks, Anonymous has struck against the websites of the Japanese president and other government departments in protest against the animals' deaths.
+This follows related cyber-attacks against Icelandic institutions in November as part of the same OpWhales campaign, which resulted in most of the country's government sites being made unavailable for about 13 hours.
+Awareness campaign
+One of the hackers claiming responsibility for the attacks explained why Nissan had been targeted.
+hey are a big corporation in Japan, and we have targeted big corporations to spread awareness about the killing [of dolphins] in the cove in Taiji because the Japanese news is censoring it," he said.
+"As a note for Nissan, we are not out to harm your customer data or system data."
+The attack coincides with the Detroit Auto Show, where Nissan unveiled a concept pickup van on Tuesday.
+The company's US and European websites remain online.
+"At Nissan, customer privacy and security is of utmost importance, and we take any potential threat to our information systems seriously," said a spokesman.
+"Because of a potential distributed denial of service [DDoS] attack, we are temporarily suspending service on our websites to prevent further risks.
+"Nissan continuously monitors and takes aggressive steps to ensure the protection of our information systems and all of our data."
+Share this story About sharing
+Officers said they believed they had apprehended a key member of the group DD4BC, while another suspect was also in custody after raids.
+Forces from various European countries, including Scotland Yard detectives, worked together on the operation.
+The group is accused of taking down companies' websites and demanding ransoms to stop.
+Its name, which stands for Distributed Denial of Service for the online currency Bitcoin, is an apparent reference to its alleged tactics.
+In September last year, a report from the net firm Akamai alleged that the group had carried out more than 140 attacks in the previous 10 months on banks, media groups and gaming firms.
+Europol said that "key members of the organised network" were tracked to Bosnia-Herzegovina by officers from the Metropolitan Police, who were working with the European Union's law enforcement agency.
+Raids
+On 15 and 16 December, officers from Austria, Bosnia-Herzegovina and Germany, as well as those from the United Kingdom, worked together to carry out raids.
+They were assisted on "Operation Pleiades" by their colleagues from Australia, France and Japan, as well as Romania, USA and Switzerland. The international agency Interpol also helped, Europol said.
+In a statement released on Tuesday, it added that the operation "resulted in the arrest of a main target and one more suspect detained. Multiple property searches were

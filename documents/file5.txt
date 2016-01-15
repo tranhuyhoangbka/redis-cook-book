@@ -1,0 +1,48 @@
+A former US professional football player whose career was cut short by disciplinary problems has been found dead inside his California prison cell.
+Officials believe Lawrence Phillips, 40, killed himself early on Wednesday.
+In the 1990s, he was a star player at the University of Nebraska, making him a sought-after rookie in the NFL.
+Phillips played for the St Louis Rams, Miami Dolphins and San Francisco 49ers until 1999, but he was plagued by trouble on and off the field.
+After his NFL career, Phillips continued to have problems with the law.
+Eventually, he was sent to prison after being convicted of assault for driving his car into a group of teenagers. In another case, he was convicted of assaulting a former girlfriend.
+Accused of murder
+Phillips - who was serving a term of more than 30 years - had been placed in a cell alone after he was accused of killing his former cellmate.
+On Tuesday, a judge found that there was enough evidence to try Phillips in the death of Damion Soward, 37.
+It is unclear how he took his own life.
+"He was an intelligent person and had some good qualities," Tom Osborne, Phillip's coach at Nebraska, told the Associated Press news agency.
+"Yet he had some anger issues and couldn't overcome the demons in his life.''
+Google's self-drive cars had to be stopped from crashingGoogle drivers had to intervene to stop its self-driving cars from crashing on California's roads 13 times between September 2014 and November 2015.
+The disclosure follows a local regulator's demand for the information.
+Six other car tech companies also revealed data about autonomous-driving safety incidents of their own.
+Google wants to build cars without manual controls, but California-based Consumer Watchdog now says the company's own data undermines its case.
+Privacy project director John Simpson asked: "How can Google propose a car with no steering wheel, brakes or driver?
+"Release of the disengagement report was a positive step, but Google should also make public any video it has of the disengagement incidents, as well as any technical data it collected, so we can fully understand what went wrong as it uses our public roads as its private laboratory."
+'Getting better'
+The 32-page report says during 15 months of tests of California's public roads:
+Google operated its cars in autonomous mode for 424,331 miles (682,895km)
+There were 272 cases when the cars' own software detected a "failure" that caused it to alert the driver and hand over control
+There were 69 further events when the drivers seized control without being prompted to do so because they perceived there was a safety threat
+Computer simulations carried out after the fact indicated that in 13 of the driver-initiated interventions, there would have been a crash if they had not taken control
+Two of these cases would have involved hitting a traffic cone
+The other 11 would have been more serious
+It adds: "These events are rare and our engineers carefully study these simulated contacts and refine the software to ensure the self-driving car performs safely.
+"We are generally driving more autonomous miles between these events.
+"From April 2015 to November 2015, our cars self-drove more than 230,000 miles without a single such event."
+Software faults
+Most of the other companies to file "vehicle disengagement reports" with the California Department of Motor Vehicles (DMV) provided less detail:
+Tesla drivers had never had to intervene
+Nissan drivers had intervened 106 times in 1,485 miles of tests - to avoid being rear-ended after braking too fast or crashing after braking too slowly
+Mercedes-Benz drivers had intervened 1,051 times in 1,739 miles -59 of these had been unprompted, often because they had been "uncomfortable" with the software's behaviour
+Delphi drivers had intervened 405 times in 16,662 miles - 28 of these cases had been precautionary, because of nearby pedestrians or cyclists, and 212 had been due to difficulties making out road markings or traffic lights
+Volkswagen drivers had intervened 260 times in 14,945 miles
+Bosch drivers had intervened 625 times in 935 miles - but all of these had been "planned tests"
+'Safer than humans'
+Towards the end of last year, California's DMV published draft proposals that fully licensed drivers would have to be behind the wheels and pedals of autonomous cars sold to the public.
+But John Krafcik, the newly appointed president of Google's self-driving car project, said earlier this week that allowing humans to intervene could actually make a crash more likely.
+The car "has to shoulder the whole burden", he said at the Detroit Auto Show.
+But Mr Krafcik said Google's plans would be influenced by car manufacturers.
+"No-one goes this alone," he said.
+"We are going to be partnering more and more and more."
+One expert said it could be decades before regulators allowed vehicles be built without manual controls.
+"For a long period, you will see autonomous vehicles and human-driven cars share the road," said Prof David Bailey, from the Aston Business School, in Birmingham.
+"That makes the situation more complicated, which makes a strong argument for letting people be able to take back control.
+"From the point of view of people's acceptance and confidence in the technology, that will be needed anyway."
