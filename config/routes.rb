@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :abilities do
+    get "search", on: :collection
+  end
+  get "readfile/:id" => "abilities#read_file", as: :readfile
   root to: "pages#home"
 
   # The priority is based upon order of creation: first created -> highest priority.
