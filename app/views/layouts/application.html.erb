@@ -25,12 +25,38 @@
         <li><a href="#">WHO</a></li>
         <li><a href="<%= search_abilities_path %>">SEARCH DOCUMENT</a></li>
         <li><a href="#">WHERE</a></li>
+        <% if user_signed_in? %>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.name  %> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="<%= edit_user_registration_path %>">Profile</a></li>
+              <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+            </ul>
+          </li>
+        <% else %>
+          <li><a href="<%= new_user_session_path %>">Login</a></li>
+          <li><a href="<%= new_user_registration_path %>">Sign Up</a></li>
+        <% end %>
       </ul>
     </div>
   </div>
 </nav>
 <!--main-content-->
-<%= yield %>
+<div class="<%= controller_name == "pages" ? "container-fluid" : "container main-content" %>">
+  <div class="notice">
+    <% if flash.present? %>
+      <% flash.each do |msg_type, msg_value| %>
+        <ul class="list-unstyled">
+          <li class="alert <%= msg_type.in?(%i(alert danger warning)) ? "alert-danger" : "alert-info" %> alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong><%= msg_value %></strong>
+          </li>
+        </ul>
+      <% end %>
+    <% end %>
+  </div>
+  <%= yield %>
+</div>
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
   <p>Bootstrap Theme Made By <a href="http://www.w3schools.com">www.w3schools.com</a></p>

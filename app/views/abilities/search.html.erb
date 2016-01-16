@@ -1,31 +1,29 @@
-<div class="container main-content">
-  <div class="row">
-    <div class="col-lg-6">
-      <div class="input-group" style="margin: 50px 0px 50px 20px">
-        <%= form_tag search_abilities_path, method: :get do %>
-          <%= text_field_tag :search, params[:search], class: "form-control", placeholder: "Search for ..." %>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group" style="margin: 50px 0px 50px 20px">
+      <%= form_tag search_abilities_path, method: :get do %>
+        <%= text_field_tag :search, params[:search], class: "form-control", placeholder: "Search for ..." %>
 
-          <div class="input-group-btn pull-right">
-            <%= submit_tag "Go!", class: "btn btn-default", style: "margin-top: -35px" %>
-          </div>
-        <% end %>
-        <div class="clearfix"></div>
-      </div><!-- /input-group -->
-      <div class="show-result">
-        <% if @document_paths.present? %>
-          <div class="list-group">
-            <% @document_paths.each.with_index(1) do |doc, index| %>
-              <%= link_to base_file_name(doc), readfile_path(id: base_file_name(doc)), class: "list-group-item", remote: true %>
-            <% end %>
-          </div>
-        <% end %>
-      </div>
-    </div><!-- /.col-l-->
-    <div class="col-lg-6">
-      <h2 class="text-center">Content for file</h2>
-      <div class="content-file">
+        <div class="input-group-btn pull-right">
+          <%= submit_tag "Go!", class: "btn btn-default", style: "margin-top: -35px" %>
+        </div>
+      <% end %>
+      <div class="clearfix"></div>
+    </div><!-- /input-group -->
+    <div class="show-result">
+      <% if @document_paths.present? %>
+        <div class="list-group">
+          <% @document_paths.each.with_index(1) do |doc, index| %>
+            <%= link_to base_file_name(doc), readfile_path(id: base_file_name(doc)), class: "list-group-item", remote: true %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div><!-- /.col-l-->
+  <div class="col-lg-6">
+    <h2 class="text-center">Content for file</h2>
+    <div class="content-file">
 
-      </div>
     </div>
   </div>
 </div>
