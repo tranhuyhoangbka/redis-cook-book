@@ -5,6 +5,7 @@
   <title>tutorial Redis</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'http://fonts.googleapis.com/css?family=Montserrat', media: 'all' %>
+  <%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -22,7 +23,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
+        <li><a href="<%= stats_path %>">Trackable hits</a></li>
         <li><a href="<%= search_abilities_path %>">SEARCH DOCUMENT</a></li>
         <li><a href="#">WHERE</a></li>
         <% if user_signed_in? %>
@@ -42,7 +43,7 @@
   </div>
 </nav>
 <!--main-content-->
-<div class="<%= controller_name == "pages" ? "container-fluid" : "container main-content" %>">
+<div class="<%= controller_name == "pages" ? "container-fluid" : "container main-content" %>" style="color: #000">
   <div class="notice">
     <% if flash.present? %>
       <% flash.each do |msg_type, msg_value| %>

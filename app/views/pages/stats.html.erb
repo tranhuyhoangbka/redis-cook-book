@@ -1,0 +1,41 @@
+<div class="stats-area">
+  <h1>Overview Stats</h1>
+  <h2>Total Hits: <%= @total_hits %></h2>
+  <div class="chart-total-ten-days">
+    <%= line_chart @data_ten_days_chart %>
+  </div>
+  <div class="top-users">
+    <h2>Top 5 users:</h2>
+    <div class="select-date">
+      <%= form_tag stats_path, method: :get, class: "form-horizontal", remote: true do %>
+        <div class="form-group">
+          <%= label_tag "Start Date", nil, class: "col-sm-2 control-label" %>
+          <div class="col-sm-3">
+            <%= date_field_tag "start_date", params[:start_date], class: "form-control" %>
+          </div>
+        </div>
+        <div class="form-group">
+          <%= label_tag "End Date", nil, class: "col-sm-2 control-label" %>
+          <div class="col-sm-3">
+            <%= date_field_tag "end_date", params[:end_date], class: "form-control" %>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <%= submit_tag "Search", class: "btn btn-default", data: {disable_with: "Sending....."} %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <ol class="list-users">
+      <% @top_users.each do |u| %>
+        <li><%= link_to "#{u[0].name} <span class='badge'>#{u[1]} views</span>".html_safe, "#" %></li>
+      <% end %>
+    </ol>
+
+    <div class="chart">
+      <%= column_chart @data_chart_top_users %>
+    </div>
+  </div>
+</div>
