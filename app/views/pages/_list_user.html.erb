@@ -1,0 +1,3 @@
+<% users.each do |u| %>
+  <li><%= link_to "#{u[0].name} <span class='badge'>#{u[1]} views</span>".html_safe, "#" %></li>
+<% end %>

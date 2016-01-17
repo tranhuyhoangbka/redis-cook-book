@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  devise_for :user
+  devise_for :user, controllers: {sessions: "users/sessions", registrations: "users/registrations"}
   resources :abilities do
     get "search", on: :collection
   end
   get "readfile/:id" => "abilities#read_file", as: :readfile
+  get "stats" => "pages#stats", as: :stats
   root to: "pages#home"
 
   # The priority is based upon order of creation: first created -> highest priority.
